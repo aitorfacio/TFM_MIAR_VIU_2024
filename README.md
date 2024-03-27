@@ -36,7 +36,7 @@ Este repositorio contiene una colección de scripts de Python desarrollados como
 - **`face_analysis.py`**, **`face_recognition_metrics.py`**: Realizan la detección de raza y calculan métricas de rendimiento como la Tasa de Error Igual (EER) para modelos de reconocimiento facial.
 
 ### Redes Generativas Antagónicas
-- **`gan.py`**, **`gan_identity.py`**: Implementan y entrenan arquitecturas GAN para la generación de caras sintéticas para mejorar la diversidad del conjunto de datos.
+- **`gan.py`**, **`gan_identity.py`**: Implementan y entrenan arquitecturas GAN para la generación de caras sintéticas para mejorar la diversidad del conjunto de datos. Extienden el fichero de https://github.com/eriklindernoren/PyTorch-GAN.
 - **`my_dcgan.py`**: Implementa un modelo DCGAN (Deep Convolutional Generative Adversarial Network) personalizado. Este script es responsable de la creación, entrenamiento y generación de imágenes utilizando DCGAN, una variante de las GAN que utiliza convoluciones profundas, lo que lo hace especialmente adecuado para el procesamiento de imágenes.
 
 ### División de Conjuntos de Datos
